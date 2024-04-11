@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    
+    background-image: url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif');
+    background-size: 100%;
+    padding-bottom: 50px;
+}
+.form-container{
+    width: 60%;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: url('https://24.media.tumblr.com/tumblr_m93cafFkDl1rsebv2o1_500.gif');
+    background-size: 100%;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px 10px white;
+}
+
+.form-container input{
+    width: 80%;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    border-radius:10px;
+}
+
+.form-container select{
+    width: 82%;
+    height: 47px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    border-radius:10px;
+}
+
+.form-container button{
+    width: 30%;
+    border: 1px solid green;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: green;
+    animation: btn 1s infinite;
+    cursor: pointer;
+}
+.form-container h1{
+    color: white;
+    padding: 10px 0px;
+    text-shadow: 0 0 10px rgb(0, 255, 26);
+}
+
+@keyframes btn {
+    0%{
+        box-shadow: 0 0 10px 5px rgb(145, 253, 14);
+    }
+    50%{
+        box-shadow: 0 0 20px 1px rgb(145, 253, 14);
+    }
+    100%{
+        box-shadow: 0 0 10px 5px rgb(145, 253, 14);
+    }
+}

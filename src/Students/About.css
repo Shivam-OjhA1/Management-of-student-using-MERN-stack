@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.about-body{
+    background-image: url('https://th.bing.com/th/id/OIP.673SuHWvSzJubIRWYqLsZAHaEo?pid=ImgDet&rs=1');
+    background-size: 100% 100%;
+    padding-bottom: 30px;
+}
+.about-main {
+    display: flex;
+    width: 80%;
+    margin: 50PX auto;
+    padding: 25px 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 20px 20px rgb(167, 159, 159);
+    border-radius: 10px;
+}
+
+.about-logo {
+    width: 20%;
+}
+
+.about-logo img {
+    width: 150PX;
+    height: 150PX;
+    border-radius: 20px;
+}
+.about-content{
+    width: 80%;
+    text-align: center;
+    padding: 0px 0px;
+}
+.about-content h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 10px;
+}
+.about-tech{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0 0 20px 20px rgb(167, 159, 159);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.about-tech h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 1, 1);
+}
+
+.tech-container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0 0 20px 20px rgb(167, 159, 159);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.react-logo{
+    width: 30%;
+}
+.react-logo img{
+    width: 150px;
+    height: 150px;
+}
+.react-about{
+    width: 70%;
+    text-align: center
+}
+#reacth2{
+    color: rgb(3, 158, 247);
+}
+#expressimg{
+    width: 250PX;
+    height: 100PX;
+    border-radius: 20px;
+    padding: 30px 10px;
+}
+#expressh2{
+    color: rgb(22, 87, 134);
+}
+#nodeimg{
+    width: 180PX;
+    height: 100PX;
+    border-radius: 20px;
+    padding: 30px 10px;
+}
+#nodeh2{
+    color: rgb(22, 134, 22);
+}
+#mongoh2{
+    color: rgb(2, 127, 2);
+}
+#mongoimg{
+    width: 250PX;
+    height: 100PX;
+    border-radius: 20px;
+    padding: 30px 10px;
+}

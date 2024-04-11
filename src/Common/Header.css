@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-base {
+    background-color: rgb(85, 191, 233);
+    width: 100%;
+    
+    position: sticky;
+    top: 0;
+}
+
+.header-main {
+    text-align: right;
+    padding: 5px;
+}
+
+.header-menu li {
+    display: inline;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+    color: black;
+    transition: all .5s;
+}
+
+.header-menu li a:hover {
+    background-color: aqua;
+    box-shadow: 0px 0px 4px 4px rgb(37, 37, 37);
+}

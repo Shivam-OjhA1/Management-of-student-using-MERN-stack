@@ -1,0 +1,63 @@
+.main{
+    background-image: url('https://i.pinimg.com/originals/34/0c/23/340c23d6c950c2253c0a6662a2844388.jpg');
+    background-size: 100% 100%;
+    background-position: fixed;
+}
+.admin-base {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.admin-txt {
+    text-align: center;
+    width: 40%;
+    margin: 50px 20px;
+    padding: 10px 20px;
+    font-size: 2vw;
+    height: 350px;
+    margin-left: 100px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.893);
+
+}
+.admin-img {
+    animation: img 10s alternate infinite;
+    width: 40%;
+    height: 350px;
+    margin: 50px 20px;
+}
+
+@keyframes img {
+    0% {
+        background-image: url('https://www.makerstations.io/content/images/2022/03/olja-lobkis-studygram-04.jpeg');
+        background-size: 100% 100%;
+        border-radius: 30px;
+    }
+    50% {
+        background-image: url('https://www.bu.edu/files/2021/04/Looking-for-a-place-to-study-for-finals-These-spots-are-perfect.-copy.jpg');
+        background-size: 100% 100%;
+        border-radius: 30px;
+    }
+    100% {
+        background-image: url('https://reporter.rit.edu:8443/sites/pubDir/slideShow/08-16/212-1474-47783801.jpg');
+        background-size: 100% 100%;
+        border-radius: 30px;
+    }
+}
+
+.container-box{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+    background-color: aliceblue;
+    display: flex;
+}
+.container{
+    border: 2px solid black;
+    margin: 30px 20px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.container i{
+    font-size: 3vw;
+}

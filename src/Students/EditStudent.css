@@ -1,0 +1,60 @@
+.edit-base{
+    background-image: url('https://cdn.wallpapersafari.com/34/85/J9AFcz.jpg');
+    background-size: 100% 100%;
+    padding:50px 10px;
+}
+.edit-main{
+    background-color: rgba(240, 248, 255, 0.69);
+    width: 60%;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px white;
+    text-align: center;
+}
+.edit-heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 20px 10px;
+    text-align: center;
+}
+.edit-table{
+    width: 100%;
+    padding: 30px 10px;
+    text-align: center;
+}
+.edit-table th{
+    border: none;
+    padding: 10px 10px;
+    width: 30%;
+}
+.edit-table tr{
+    width: 100%;
+}
+.edit-table td{
+    border: none;
+    padding: 10px 10px;
+    width: 70%;
+}
+.edit-table td input{
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.editbtn{
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 0 0 20px 5px rgb(176, 250, 4);
+    cursor: pointer;
+    border: 1px solid white;
+}
+.selectedit{
+    padding: 6px 53px;
+    border-radius: 5px;
+    font-size: 15px;
+}

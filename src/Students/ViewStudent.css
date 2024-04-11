@@ -1,0 +1,98 @@
+.view-base{
+    background:url('https://wallpaperaccess.com/full/2641065.gif');
+    background-size: 100% 100%;
+    padding: 20px 5px;
+}
+.view-main{
+    background:url('https://i.pinimg.com/originals/0c/cd/86/0ccd86910c71969affa12f7f283e8b66.gif');
+    background-size: 100% 100%;
+    margin:auto;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 5px;
+}
+.view-heading{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgb(253, 0, 0);
+}
+.view-table{
+    width: 100%;
+    padding: 20px 2px;
+}
+
+.view-table table{
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+.view-row{
+    background-color: rgb(247, 126, 93);
+    font-size: 22px;
+}
+.view-table table tr,td,th{
+    padding: 5px 0px ;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.delbtn{
+    font-size: 18px;
+    background-color: red;
+    padding: 5px 7px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.udbtn{
+    font-size: 18px;
+    background-color: green;
+    margin: 5px 7px;
+    padding: 5px 7px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.viewbtn{
+    font-size: 18px;
+    background-color: rgb(0, 9, 128);
+    margin: 5px 7px;
+    padding: 5px 7px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.view-search{
+    font-size: 25px;
+    padding: 5px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.leftfee1{
+    background-color: red;
+    border-radius: 5px;
+    padding: 7px 10px;
+
+}
+.leftfee0{
+    background-color: green;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: white;
+}
+#td1{
+    border: none;
+}

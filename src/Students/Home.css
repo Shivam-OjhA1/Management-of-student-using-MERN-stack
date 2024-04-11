@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-base{
+    background-image: url('https://th.bing.com/th/id/OIP.GX-u5xAZmUb27-51DrvWygHaFj?pid=ImgDet&rs=1');
+    background-size: 100% 100%;
+    padding: 100px 60px 150px 60px;
+    display: flex;
+}
+.home-content{
+    color: white;
+    box-shadow: 0px 0px 15px 15px rgb(155, 153, 153);
+    padding: 60px 60px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    margin: 0px 100px;
+    background-color: rgba(0, 0, 0, 0.711);
+}
+
+.home-image{
+    border-radius: 8px;
+    margin-left: 5%;
+    height: 500px;
+    width: 80%;
+    animation: demo1 8s alternate linear infinite;
+}
+
+@keyframes demo1{
+    0%{
+        background-image: url('https://th.bing.com/th/id/OIP.gO2Az1amOKd87JFqt4MHdwHaFj?pid=ImgDet&rs=1') ;
+        background-size: 100% 100%;
+        box-shadow: 0 0 15px 15px rgba(92, 204, 252, 0.169);
+    }
+
+    33%{
+        background-image: url('https://th.bing.com/th/id/OIP.pma3URVWsHLJHmmv_GQayQHaE8?pid=ImgDet&rs=1') ;
+        background-size: 100% 100%;
+        box-shadow: 0 0 15px 15px rgba(29, 35, 33, 0.77);
+    }
+    66%{
+        background-image: url('https://wp.stanforddaily.com/wp-content/uploads/2020/03/NEW.040215.pairprogramming.jpg') ;
+        background-size: 100% 100%;
+        box-shadow: 0 0 15px 15px rgba(95, 51, 133, 0.77);
+    }
+    100%{
+        background-image: url('https://th.bing.com/th/id/OIP.WNxD-A5wOXUA22cVEibOsQHaE8?pid=ImgDet&rs=1');
+        background-size: 100% 100%;
+        box-shadow: 0 0 15px 15px rgba(59, 106, 112, 0.77);
+    }
+
+
+}
